@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+    margin: 0;
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(6,6,6,1) 19%, rgba(0,0,0,1) 73%, rgba(19,19,19,1) 100%);
+    overflow: visible;
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+  }
+
+.navbar {
+    justify-content: space-between; 
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    background-color: black;
+    border-bottom: 3px solid #7c0025;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+
+
+.logo {
+    margin-left: 100px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    
+}
+
+
+ul {
+    list-style: none;
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 100px;
+    gap: 35px;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+
+
+a {
+    text-decoration: none;
+    
+}
+
+nav a {
+    color: white;
+    transition: transform .2s
+}
+
+nav a:hover {
+    color: #7c0025;
+    transform: scale(1.1);
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    scale: 2.4;
+    
+    
+}
+
+/* Section 1 */
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+    padding-top: 200px;
+    gap: 100px;
+    padding: 50px;
+    border: solid 1px#b1b1b1;
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(34,10,10,1) 19%, rgba(0,0,0,1) 73%, rgba(23,3,3,1) 100%);
+    margin-bottom: 180px;
+}
+
+.contact-me {
+    padding: 8px;
+    background-color: #53001a;
+    margin: 20px;
+    margin-left: 0px;
+    margin-top: 30px;
+    border: solid 1px #22000a;
+    border-radius: 9px;
+    transition: transform .2s
+}
+
+.contact-me:hover {
+    padding: 8px;
+    background-color: #ffffff;
+    margin: 20px;
+    margin-left: 0px;
+    margin-top: 30px;
+    border: solid 1px #22000a;
+    border-radius: 9px;
+    transform: scale(1.2);
+}
+
+.contact-me a {
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    font-weight: 200;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    
+}
+
+.contact-me a:hover {
+    color: #22000a;
+    font-size: 120%;
+    font-weight: 200;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+
+.section1 .intro {
+    color: white;
+    padding-right: 80px;
+    max-width: 800px;
+
+}
+
+.section1 .intro h1 {
+    font-size: 350%;
+}
+
+.section1 .intro article {
+    padding-top: 1cqmax;
+    font-size: 120%;
+    font-weight: 200;
+}
+
+
+.section1 aside {
+    background-color: rgb(0, 0, 0);
+    border: solid 1px #4b4b4b;
+    padding: 20px;
+    transition: transform .2s;
+}
+
+.section1 aside:hover {
+    transform: scale(1.1);
+}
+
+.section1 aside img {
+    display: flex;
+    width: 400px;
+    height: auto;
+}
+
+.section1 aside h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 120%;
+    padding: px;
+
+}
+
+.profile {
+    padding: 20px;
+    padding-top: 25px;
+}
+
+/* services */
+
+.service {
+    color: white;
+
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(5,5,5,1) 26%, rgba(0,0,0,1) 73%, rgba(11,11,11,1) 100%);
+    border: solid 1px rgb(131, 131, 131);
+}
+
+.service h1 {
+    font-size: 400%;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.service-1 {
+    display: flex;
+    margin-bottom: 60px;
+    text-align: center;
+    gap: 60px   ;
+}
+
+.service-2 {
+    display: flex;
+    text-align: center;
+    margin-bottom: 100px;
+    gap: 60px;
+}   
+
+.service h3 {
+    font-size: 200%;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.service article {
+    padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card {
+    padding:20px;
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(22,0,0,1) 100%);
+    border: solid 1px rgb(134, 133, 133);
+    border-radius: 20px;
+    transition: transform .2s
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+/*portfolio*/
+
+.title-portfolio {
+    color: white;
+    text-align: center;
+    font-size: 400%;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.portfolio-1-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    scale: 1.1;
+    margin-bottom: 80px;
+}
+
+.portfolio-3-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    scale: 1.1;
+    margin-bottom: 120px;
+}
+
+.video-yt {
+    transition: transform .2s
+}
+
+.video-yt:hover {
+    transform: scale(1.1);
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #29000d;
+    padding: 40px;
+}
+
+.footer p {
+    color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+
+
+/* media query */
+
+@media (max-width: 1200px) {
+    .section1 {
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 50px;
+    }
+
+    .service {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .portfolio-1-2, .portfolio-3-4 {
+        scale: 0.9;
+    }
+}
+
+@media (max-width: 992px) {
+    .section1 {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .section1 .intro {
+        padding-right: 0;
+    }
+
+    .contact-me {
+        margin: 20px auto;
+    }
+
+    .service {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .service-1, .service-2 {
+        gap: 30px;
+    }
+
+    .portfolio-1-2, .portfolio-3-4 {
+        scale: 0.8;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .logo {
+        margin-left: 0;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .logo img {
+        scale: 1.8;
+    }
+
+    ul {
+        margin-right: 0;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .section1 {
+        margin: 20px;
+        margin-bottom: 100px;
+    }
+
+    .section1 .intro h1 {
+        font-size: 250%;
+    }
+
+    .section1 .intro article {
+        font-size: 100%;
+    }
+
+    .section1 aside img {
+        width: 300px;
+    }
+
+    .service {
+        padding: 30px;
+        margin-top: 0;
+    }
+
+    .service h1 {
+        font-size: 300%;
+        margin-bottom: 40px;
+    }
+
+    .service-1, .service-2 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card h3 {
+        font-size: 150%;
+    }
+
+    .card article {
+        padding: 20px;
+        padding-bottom: 40px;
+    }
+
+    .portfolio-1-2, .portfolio-3-4 {
+        scale: 0.7;
+    }
+
+    .video-yt iframe {
+        width: 100%;
+        max-width: 560px;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+}
+
+@media (max-width: 576px) {
+    ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .section1 {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .section1 .intro h1 {
+        font-size: 200%;
+    }
+
+    .section1 aside img {
+        width: 250px;
+    }
+
+    .service h1, .title-portfolio {
+        font-size: 250%;
+    }
+
+    .portfolio-1-2, .portfolio-3-4 {
+        scale: 0.6;
+    }
+
+    
+}
+
+/* Scroll Animations */
+.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    filter: blur(2px);
+    transition: opacity 0.4s ease-in-out, transform 0.7s ease-in-out, filter 0.7s ease-in-out;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+}
+
+/* Remove delays for initial load animations */
+.intro.hidden,
+.aside.hidden,
+.title-service.hidden,
+.service-1 .card.hidden,
+.service-2 .card.hidden,
+.title-portfolio.hidden,
+.portfolio-1-2 .video-yt.hidden,
+.portfolio-3-4 .video-yt.hidden {
+    transition-delay: 0s;
+}
+
+/* Hover effects */
+.card:hover, .video-yt:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+        transform: none;
+        opacity: 1;
+        filter: none;
+    }
+    
+    .card:hover,
+    .video-yt:hover {
+        transform: none;
+        transition: none;
+    }
+}
+
+
+
